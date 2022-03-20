@@ -423,3 +423,92 @@ innovation.</p>
         <input type="radio" name="answer" id="non">
         <label for="non">Non</label>
       </div>
+<div>
+        <p>Si vous avez coché "oui" sur la question précédente, quel type de bourses ?</p>
+        <input type="radio" name="choix" id="choix1">
+        <label for="choix1">Bourse à critères sociaux</label><br>
+        <input type="radio" name="choix" id="choix2">
+        <label for="choix2">Bourse d'excellence</label>
+      </div>
+      <div class="form-group">
+        <p>Votre numéro mobile:</p>
+        <input type="tel" class="form-control" id="tel">
+      </div>
+      <div class="form-group">
+        <p>Votre addresse e-mail:</p>
+        <input type="email" class="form-control" id="mail">
+      </div>
+      <div class="form-group">
+        <p>Photocopie CIN:</p>
+        <input type="file" class="form-control" id="phtcin">
+      </div>
+      <div class="form-group">
+        <p>Photo d'identité recent:</p>
+        <input type="file" class="form-control" id="phtci">
+      </div>
+      <div class="form-group">
+        <p>Relevé de note:</p>
+        <input type="file" class="form-control" id="phtc">
+      </div>
+      <div class="form-group">
+        <p>Fiche de renseignement remplie:</p>
+        <input type="file" class="form-control" id="pht">
+      </div>
+      <div class="form-group">
+        <p>N° de référence de transfert des frais d'inscription au concours par MVola (40 000Ar, +261 34 94 041 16, Fihariantsoa):</p>
+        <input type="number" class="form-control" id="phtcin">
+      </div>
+      <input type="button" value="S'inscrire" class="bg-warning">
+    </form>
+  </div>
+</div>
+</div>
+</section>
+<!-- concours section --> 
+<!-- footer section -->
+<footer id="contact" class="footer">
+  <div class="container">
+    <div class="col-md-4">
+      <h4>Contact</h4>
+      <p> II J 161 R Ambodivoanjo Ivandry Antananarivo, 101<br>
+        Telephone: 034 94 041 16 <br>
+        Email : <a href="mailto:contact@hei.school"> contact@hei.school </a></p>
+    </div>
+    <div class="col-md-3">
+      <h4>Social presense</h4>
+      <ul class="footer-share">
+        <li><a href="https://web.facebook.com/hei.school"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/hei-school"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <div class="col-md-5">
+      <h4>Voullez-vous nous envoyez un message?</h4>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Votre addresse e-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Votre message:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div>
+        <input type="button" value="Envoyer">
+      </div>
+      <p>© 2022 HEI. Haute Ecole d'Informatique<br></p>
+    </div>
+  </div>
+</footer>
+<!-- footer section --> 
+
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
